@@ -134,7 +134,6 @@ function App() {
           <div className="flex items-center gap-1.5 sm:gap-4">
             <button onClick={() => setCurrentPage('join')} className="inline-block py-1.5 px-3 sm:py-2.5 sm:px-6 rounded-[50px] font-semibold cursor-pointer transition-all duration-300 bg-primary-blue text-white-main hover:bg-secondary-blue hover:-translate-y-0.5 hover:shadow-[0_10px_20px_rgba(0,102,255,0.2)] text-[10px] sm:text-sm">Join Club</button>
             <button onClick={() => setCurrentPage('shop')} className="inline-block py-1.5 px-3 sm:py-2.5 sm:px-6 rounded-[50px] font-semibold cursor-pointer transition-all duration-300 bg-primary-blue text-white-main hover:bg-secondary-blue hover:-translate-y-0.5 hover:shadow-[0_10px_20px_rgba(0,102,255,0.2)] text-[10px] sm:text-sm">Shop now!</button>
-            <a href="http://localhost:5173" target="_blank" rel="noreferrer" className="hidden lg:inline-block py-1.5 px-3 sm:py-2.5 sm:px-5 rounded-[50px] font-semibold transition-all duration-300 border border-black/20 text-black-main hover:bg-black-main hover:text-white-main text-[10px] sm:text-xs">Admin Portal ↗</a>
             
             {/* Hamburger Burger Button */}
             <button 
