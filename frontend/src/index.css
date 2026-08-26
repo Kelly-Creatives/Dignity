@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #0066FF;
+  --color-secondary-blue: #0044CC;
+  --color-black-main: #0A0A0A;
+  --color-white-main: #FFFFFF;
+  --color-gray-light: #F5F7FA;
+  --color-gray-medium: #E2E8F0;
+  --color-gray-dark: #1A1A1A;
+  
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+:root {
+  --primary-blue: #0066FF;
+  --secondary-blue: #0044CC;
+  --black: #0A0A0A;
+  --white: #FFFFFF;
+  --gray-light: #F5F7FA;
+  --gray-medium: #E2E8F0;
+  --gray-dark: #1A1A1A;
+  --glass: rgba(255, 255, 255, 0.7);
+  --glass-dark: rgba(10, 10, 10, 0.8);
+  
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.bg-dots {
+  background-image: radial-gradient(var(--gray-medium) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--black) 0%, var(--primary-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
