@@ -11,6 +11,8 @@ const Footer = () => {
               Join our mission to restore dignity and empower lives. Every action counts towards a more equitable future.
             </p>
             <div className="flex gap-4">
+              <a href="#" className="w-10 h-10 bg-primary-blue/10 rounded-[12px] flex items-center justify-center text-primary-blue hover:bg-primary-blue hover:text-white-main hover:-translate-y-1 transition-all duration-300">𝕏</a>
+              <a href="#" className="w-10 h-10 bg-primary-blue/10 rounded-[12px] flex items-center justify-center text-primary-blue hover:bg-primary-blue hover:text-white-main hover:-translate-y-1 transition-all duration-300">in</a>
               <a href="https://www.instagram.com/plp_dignity/" className="w-10 h-10 bg-primary-blue/10 rounded-[12px] flex items-center justify-center text-primary-blue hover:bg-primary-blue hover:text-white-main hover:-translate-y-1 transition-all duration-300">ig</a>
             </div>
           </div>
