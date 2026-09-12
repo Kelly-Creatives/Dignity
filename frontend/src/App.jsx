@@ -124,11 +124,11 @@ function App() {
             PLP<span className="text-primary-blue">-Dignity</span>
           </div>
           <ul className="hidden md:flex gap-8 items-center">
-            <li><a href="#home" className="font-semibold text-[0.95rem] text-black-main/70 hover:text-primary-blue hover:opacity-100 transition-all duration-300">Home</a></li>
+            <li><a href="home" className="font-semibold text-[0.95rem] text-black-main/70 hover:text-primary-blue hover:opacity-100 transition-all duration-300">Home</a></li>
             <li><button onClick={() => setCurrentPage('about')} className="font-semibold text-[0.95rem] text-black-main/70 hover:text-primary-blue hover:opacity-100 transition-all duration-300 cursor-pointer">About Us</button></li>
-            <li><a href="#initiatives" className="font-semibold text-[0.95rem] text-black-main/70 hover:text-primary-blue hover:opacity-100 transition-all duration-300">Initiatives</a></li>
+            <li><a href="initiatives" className="font-semibold text-[0.95rem] text-black-main/70 hover:text-primary-blue hover:opacity-100 transition-all duration-300">Initiatives</a></li>
   
-            <li><a href="#publication" className="font-semibold text-[0.95rem] text-black-main/70 hover:text-primary-blue hover:opacity-100 transition-all duration-300">Publications</a></li>
+            <li><a href="publications" className="font-semibold text-[0.95rem] text-black-main/70 hover:text-primary-blue hover:opacity-100 transition-all duration-300">Publications</a></li>
           
           </ul>
           <div className="flex items-center gap-1.5 sm:gap-4">
